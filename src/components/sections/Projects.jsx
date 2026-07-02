@@ -41,13 +41,13 @@ function Projects() {
         <motion.div layout className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
           {filteredProjects.map((project, index) => (
             <motion.article
-              layout
               key={project.title}
-              initial={{ opacity: 0, y: 18 }}
+              layout
+              initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.35, delay: index * 0.05, ease: 'easeOut' }}
-              whileHover={{ y: -6, scale: 1.01, transition: { duration: 0.2 } }}
-              className="group overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-[0_12px_40px_rgba(15,23,42,0.04)]"
+              transition={{ duration: 0.35, delay: index * 0.04, ease: 'easeOut' }}
+              whileHover={{ y: -4, scale: 1.005, transition: { duration: 0.18 } }}
+              className="group overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-[0_12px_40px_rgba(15,23,42,0.04)] transition-shadow duration-200 hover:shadow-[0_18px_60px_rgba(15,23,42,0.08)]"
             >
               <div className="relative overflow-hidden">
                 <img
@@ -87,15 +87,17 @@ function Projects() {
                 <div className="flex flex-wrap gap-3 pt-2">
                   <Button
                     variant="secondary"
-                    className="!rounded-full !px-4 !py-2.5"
+                    className="px-4! py-2.5!"
                     leftIcon={<FiGithub size={16} />}
+                    href={project.links?.github}
                   >
                     GitHub
                   </Button>
                   <Button
                     variant="primary"
-                    className="!rounded-full !px-4 !py-2.5"
+                    className="px-4! py-2.5!"
                     leftIcon={<FiExternalLink size={16} />}
+                    href={project.links?.demo}
                   >
                     Live Demo
                   </Button>
@@ -104,6 +106,7 @@ function Projects() {
             </motion.article>
           ))}
         </motion.div>
+
       </div>
     </Section>
   )

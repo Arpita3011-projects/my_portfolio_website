@@ -2,7 +2,7 @@ export const skillsContent = {
   eyebrow: 'Skills',
   title: 'A practical toolkit for building modern experiences',
   intro:
-    'These are the core areas I focus on when shaping reliable, user-friendly products and thoughtful developer workflows.',
+    'These are the core areas I focus on when shaping reliable interfaces, polished product flows, and durable development workflows.',
   filters: ['All', 'Frontend', 'Backend', 'Database', 'Tools', 'Soft Skills'],
   groups: [
     {

@@ -2,9 +2,9 @@ import heroImage from '../assets/images/hero.png'
 
 export const projectsContent = {
   eyebrow: 'Projects',
-  title: 'A curated collection of thoughtful product work',
+  title: 'Selected work that balances craft and product thinking',
   intro:
-    'These projects blend strong interfaces, reliable systems, and polished interactions into stories that feel premium and easy to use.',
+    'These projects highlight the kinds of interfaces, systems, and product moments I enjoy building most—clear, usable, and thoughtfully designed.',
   filters: ['All', 'Full Stack', 'Frontend', 'Backend'],
   projects: [
     {
@@ -15,8 +15,8 @@ export const projectsContent = {
       description:
         'A refined digital studio experience with an editorial layout, fast content delivery, and a polished admin workflow.',
       technologies: ['React', 'Node.js', 'Tailwind CSS', 'PostgreSQL'],
-      github: 'https://github.com/yourname/northstar-studio',
-      demo: 'https://example.com/northstar-studio',
+      github: 'https://github.com',
+      demo: 'https://vercel.com',
     },
     {
       title: 'Lumen Analytics',
@@ -26,8 +26,8 @@ export const projectsContent = {
       description:
         'An insight-rich dashboard designed for clarity, speed, and intuitive exploration of product metrics.',
       technologies: ['React', 'TypeScript', 'Framer Motion', 'Chart.js'],
-      github: 'https://github.com/yourname/lumen-analytics',
-      demo: 'https://example.com/lumen-analytics',
+      github: 'https://github.com',
+      demo: 'https://vercel.com',
     },
     {
       title: 'Atlas Commerce',
@@ -37,8 +37,8 @@ export const projectsContent = {
       description:
         'A commerce platform backend focused on reliable APIs, resilient data flows, and thoughtful integrations.',
       technologies: ['Express', 'MongoDB', 'REST APIs', 'JWT'],
-      github: 'https://github.com/yourname/atlas-commerce',
-      demo: 'https://example.com/atlas-commerce',
+      github: 'https://github.com',
+      demo: 'https://vercel.com',
     },
     {
       title: 'Aurelia Finance',
@@ -48,8 +48,8 @@ export const projectsContent = {
       description:
         'A premium finance experience combining a modern UI with secure account workflows and real-time data updates.',
       technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'Stripe'],
-      github: 'https://github.com/yourname/aurelia-finance',
-      demo: 'https://example.com/aurelia-finance',
+      github: 'https://github.com',
+      demo: 'https://vercel.com',
     },
   ],
 }
