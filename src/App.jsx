@@ -38,7 +38,13 @@ function App() {
               transition={{ duration: 0.5, delay: 0.1, ease: 'easeOut' }}
             >
               {heroContent.buttons.map((button) => (
-                <Button key={button.label} variant={button.variant} href={button.href} target={button.href?.startsWith('http') ? '_blank' : undefined} rel={button.href?.startsWith('http') ? 'noreferrer' : undefined}>
+                <Button
+                  key={button.label}
+                  variant={button.variant}
+                  href={button.href}
+                  target={button.href?.startsWith('http') ? '_blank' : undefined}
+                  rel={button.href?.startsWith('http') ? 'noreferrer' : undefined}
+                >
                   {button.label}
                 </Button>
               ))}
