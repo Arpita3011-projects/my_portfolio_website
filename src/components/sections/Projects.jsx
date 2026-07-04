@@ -85,22 +85,25 @@ function Projects() {
                 </div>
 
                 <div className="flex flex-wrap gap-3 pt-2">
-                  <Button
+                  {project.links?.github && (
+                   <Button
                     variant="secondary"
-                    className="px-4! py-2.5!"
-                    leftIcon={<FiGithub size={16} />}
-                    href={project.links?.github}
-                  >
-                    GitHub
+                     leftIcon={<FiGithub size={16} />}
+                         href={project.links.github}
+                           >
+                     GitHub
                   </Button>
-                  <Button
+                       )}
+                    
+                  {project.links?.demo && (
+                   <Button
                     variant="primary"
-                    className="px-4! py-2.5!"
                     leftIcon={<FiExternalLink size={16} />}
-                    href={project.links?.demo}
-                  >
+                    href={project.links.demo}
+                    >
                     Live Demo
                   </Button>
+                      )}
                 </div>
               </div>
             </motion.article>

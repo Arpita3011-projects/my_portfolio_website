@@ -1,25 +1,27 @@
 export const aboutContent = {
-  eyebrow: 'About',
-  title: 'A thoughtful developer with a product mindset',
+  eyebrow: "About",
+
+  title: "Aspiring MERN Stack Developer",
 
   intro: [
-    'I build interfaces that feel calm and intuitive, while keeping the product experience grounded in clarity, performance, and thoughtful iteration.',
-    'My work sits at the intersection of design, engineering, and product thinking, with a focus on making ideas feel simple to use and rewarding to ship.',
+    "I'm a Computer Science Engineering student at KLE College of Engineering and Technology, Chikodi, with a strong interest in full-stack web development and problem solving.",
+
+    "I enjoy building real-world web applications using the MERN stack and continuously improving my Data Structures and Algorithms skills through LeetCode."
   ],
 
-  builderTitle: 'What I Focus On',
+  builderTitle: "What I'm Currently Focusing On",
 
   builderText:
-    'I care about creating experiences that feel calm, intuitive, and intentional—whether I’m crafting a landing page, refining a product flow, or exploring a new framework.',
+    "I'm currently building practical full-stack projects while strengthening my DSA skills. Alongside development, I'm learning Docker and System Design to prepare for software engineering internships and placements.",
 
   focusAreas: [
-    'Designing calm, intentional interfaces',
-    'Pairing product thinking with robust engineering',
-    'Building for clarity, performance, and iteration',
+    "Building Full Stack MERN Applications",
+    "Solving Data Structures & Algorithms Problems",
+    "Learning Docker and System Design"
   ],
 
   resume: {
-    label: 'Download Resume',
-    href: '/resume.pdf',
+    label: "Download Resume",
+    href: "/resume.pdf",
   },
-}
+};

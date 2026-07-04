@@ -1,11 +1,17 @@
 import { motion } from 'framer-motion'
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail, FiFileText } from 'react-icons/fi'
+import { SiLeetcode } from 'react-icons/si'
 import Navbar from './components/layout/Navbar'
 import About from './components/sections/About'
 import Skills from './components/sections/Skills'
 import Projects from './components/sections/Projects'
-import Achievements from './components/sections/Achievements'
+
+import Education from './components/sections/Education'
+import CurrentlyLearning from './components/sections/CurrentlyLearning'
+import Certifications from './components/sections/Certifications'
 import Contact from './components/sections/Contact'
+
+
 
 import Section from './components/ui/Section'
 import Button from './components/ui/Button'
@@ -14,6 +20,7 @@ import { heroContent } from './data/hero'
 import heroImage from './assets/images/hero.png'
 import Footer from './components/sections/Footer'
 import ScrollToTop from './components/ui/ScrollToTop'
+
 
 function App() {
   return (
@@ -65,7 +72,10 @@ function App() {
                   github: <FiGithub size={18} />,
                   linkedin: <FiLinkedin size={18} />,
                   mail: <FiMail size={18} />,
+                  leetcode: <SiLeetcode size={18} />,
+                  resume: <FiFileText size={18} />,
                 }
+
 
                 const isHttp = item.href.startsWith('http')
 
@@ -106,10 +116,16 @@ function App() {
       </Section>
 
       <About />
+      <Education />
       <Skills />
+      <CurrentlyLearning />
+
       <Projects />
-      <Achievements />
+      <Certifications />
+
+
       <Contact />
+
       <Footer />
       <ScrollToTop />
     </main>

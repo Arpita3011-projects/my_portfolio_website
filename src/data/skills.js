@@ -1,8 +1,10 @@
+
+
 export const skillsContent = {
   eyebrow: 'Skills',
   title: 'A practical toolkit for building modern experiences',
-  intro:
-    'These are the core areas I focus on when shaping reliable interfaces, polished product flows, and durable development workflows.',
+  // intro:
+  //   'These are the core areas I focus on when shaping reliable interfaces, polished product flows, and durable development workflows.',
   filters: ['All', 'Frontend', 'Backend', 'Database', 'Tools', 'Soft Skills'],
   groups: [
     {
@@ -13,6 +15,7 @@ export const skillsContent = {
         { name: 'JavaScript', level: 88, icon: 'terminal' },
         { name: 'React', level: 91, icon: 'globe' },
         { name: 'Tailwind CSS', level: 89, icon: 'layers' },
+        { name: 'Bootstrap', level: 89, icon: 'bootstrap' },
       ],
     },
     {
@@ -27,7 +30,16 @@ export const skillsContent = {
       title: 'Database',
       skills: [
         { name: 'MongoDB', level: 80, icon: 'database' },
-        { name: 'SQL', level: 78, icon: 'database' },
+        { name: 'SQL(Basics)', level: 78, icon: 'database' },
+      ],
+    },
+    {
+      title: 'Languages',
+      skills: [
+        { name: 'Java', level: 80, icon: 'java' },
+        { name: 'JavaScript', level: 78, icon: 'javascript' },
+         { name: 'Python', level: 78, icon: 'python' },
+        
       ],
     },
     {
@@ -35,7 +47,7 @@ export const skillsContent = {
       skills: [
         { name: 'Git', level: 87, icon: 'branch' },
         { name: 'GitHub', level: 85, icon: 'github' },
-        { name: 'Vite', level: 83, icon: 'terminal' },
+        { name: 'VS code', level: 83, icon: 'vscode' },
       ],
     },
     {

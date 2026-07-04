@@ -1,6 +1,6 @@
 export const footerContent = {
-  name: 'Alex YourName',
-  tagline: 'Building clean, reliable software.',
+  name: 'Arpita Mahaveer Pradhane',
+  tagline: 'Aspiring MERN stack Developer',
 
   links: [
     { label: 'Home', href: '#hero' },
@@ -11,13 +11,13 @@ export const footerContent = {
   ],
 
   socialLinks: [
-    { label: 'GitHub', href: 'https://github.com', icon: 'github' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com', icon: 'linkedin' },
-    { label: 'LeetCode', href: 'https://leetcode.com', icon: 'leetcode' },
+    { label: 'GitHub', href: 'https://github.com/Arpita3011-projects', icon: 'github' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/arpita-pradhane-ab0aa9290?utm_source=share_via&utm_content=profile&utm_medium=member_android', icon: 'linkedin' },
+    { label: 'LeetCode', href: 'https://leetcode.com/u/ArpitaDSA/', icon: 'leetcode' },
   ],
 
   copyright: {
-    fromYear: 2024,
+    fromYear: 2026,
   },
 }
 

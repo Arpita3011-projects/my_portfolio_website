@@ -12,9 +12,14 @@ import {
   FiTerminal,
   FiTool,
 } from 'react-icons/fi'
+import { SiBootstrap, SiJavascript, SiLeetcode } from 'react-icons/si'
+import { FaJava, FaPython } from 'react-icons/fa'
+import { VscVscode } from 'react-icons/vsc'
+import { HiOutlineDocumentText } from 'react-icons/hi'
 import Section from '../ui/Section'
 import Heading from '../ui/Heading'
 import { skillsContent } from '../../data/skills'
+
 
 const iconMap = {
   code: FiCode,
@@ -26,6 +31,13 @@ const iconMap = {
   database: FiDatabase,
   branch: FiGitBranch,
   github: FiGithub,
+  bootstrap: SiBootstrap,
+  javascript: SiJavascript,
+  java: FaJava,
+  python: FaPython,
+  vscode: VscVscode,
+  leetcode: SiLeetcode,
+  resume: HiOutlineDocumentText,
 }
 
 function Skills() {

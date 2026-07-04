@@ -8,48 +8,34 @@ export const projectsContent = {
   filters: ['All', 'Full Stack', 'Frontend', 'Backend'],
   projects: [
     {
-      title: 'Northstar Studio',
+      title: 'Airbnb Clone',
       category: 'Full Stack',
       featured: true,
       image: heroImage,
       description:
-        'A refined digital studio experience with an editorial layout, fast content delivery, and a polished admin workflow.',
-      technologies: ['React', 'Node.js', 'Tailwind CSS', 'PostgreSQL'],
-      github: 'https://github.com',
-      demo: 'https://vercel.com',
+        'A full-stack web application inspired by Airbnb featuring user authentication, property listings, CRUD operations, image uploads, booking functionality, and a responsive user interface.',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+      links: {
+        github: 'https://github.com/Arpita3011-projects/Airbnb_3011',
+        demo: undefined,
+      },
     },
     {
-      title: 'Lumen Analytics',
-      category: 'Frontend',
-      featured: false,
-      image: heroImage,
-      description:
-        'An insight-rich dashboard designed for clarity, speed, and intuitive exploration of product metrics.',
-      technologies: ['React', 'TypeScript', 'Framer Motion', 'Chart.js'],
-      github: 'https://github.com',
-      demo: 'https://vercel.com',
-    },
-    {
-      title: 'Atlas Commerce',
+      title: 'Banking Management System',
       category: 'Backend',
       featured: false,
       image: heroImage,
       description:
-        'A commerce platform backend focused on reliable APIs, resilient data flows, and thoughtful integrations.',
-      technologies: ['Express', 'MongoDB', 'REST APIs', 'JWT'],
-      github: 'https://github.com',
-      demo: 'https://vercel.com',
-    },
-    {
-      title: 'Aurelia Finance',
-      category: 'Full Stack',
-      featured: true,
-      image: heroImage,
-      description:
-        'A premium finance experience combining a modern UI with secure account workflows and real-time data updates.',
-      technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'Stripe'],
-      github: 'https://github.com',
-      demo: 'https://vercel.com',
+        'A console-based banking application developed using Java and Object-Oriented Programming concepts. It supports account creation, deposits, withdrawals, balance inquiry, and other basic banking operations.',
+      technologies: ['Java', 'Object-Oriented Programming (OOP)'],
+      links: {
+        github: 'https://github.com/Arpita3011-projects/ATM-Management-System-Java-MiniProject-',
+        demo: undefined,
+      },
     },
   ],
 }
+
+
+
+
