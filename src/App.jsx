@@ -5,11 +5,15 @@ import About from './components/sections/About'
 import Skills from './components/sections/Skills'
 import Projects from './components/sections/Projects'
 import Achievements from './components/sections/Achievements'
+import Contact from './components/sections/Contact'
+
 import Section from './components/ui/Section'
 import Button from './components/ui/Button'
 import Heading from './components/ui/Heading'
 import { heroContent } from './data/hero'
 import heroImage from './assets/images/hero.png'
+import Footer from './components/sections/Footer'
+import ScrollToTop from './components/ui/ScrollToTop'
 
 function App() {
   return (
@@ -105,9 +109,15 @@ function App() {
       <Skills />
       <Projects />
       <Achievements />
+      <Contact />
+      <Footer />
+      <ScrollToTop />
     </main>
   )
 }
 
+
+
 export default App
+
 

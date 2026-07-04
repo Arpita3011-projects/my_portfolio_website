@@ -1,4 +1,5 @@
-import { useMemo, useRef, useState } from 'react'
+import { useMemo, useRef } from 'react'
+
 import { motion, useInView } from 'framer-motion'
 import {
   FiCode,
