@@ -12,7 +12,7 @@ export const achievementsContent = {
           name: 'NPTEL',
           issuer: 'NPTEL',
           year: 'Jan 2025 - May 2025',
-          href:'nptelcertificate.pdf'
+          href:'/certificates/Programminginjava.pdf'
         },
         {
           name: 'Solving DSA Problems and actively preparing for placements',

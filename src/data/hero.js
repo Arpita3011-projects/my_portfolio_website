@@ -13,7 +13,7 @@ export const heroContent = {
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/arpita-pradhane-ab0aa9290?utm_source=share_via&utm_content=profile&utm_medium=member_android', icon: 'linkedin' },
     { label: 'Leetcode', href: 'https://leetcode.com/u/ArpitaDSA/', icon: 'leetcode' },
     { label: 'Email', href: 'mailto:arpitapradhane30@gmail.com', icon: 'mail' },  
-    { label: 'resume', href: 'Arpita Pradhane- Resume.pdf', icon: 'resume' },
+    { label: 'resume', href: '/Arpita Pradhane- Resume.pdf', icon: 'resume' },
   ],
 }
 
