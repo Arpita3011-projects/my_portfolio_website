@@ -1,7 +1,7 @@
 export const navbarContent = {
   logo: {
     initials: 'A',
-    name: 'Alex',
+    name: 'Arpita',
   },
   links: [
     { label: 'Home', href: '#hero' },
