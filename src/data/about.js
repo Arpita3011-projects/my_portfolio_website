@@ -22,6 +22,6 @@ export const aboutContent = {
 
   resume: {
     label: "Download Resume",
-    href: "/resume.pdf",
+    href: "Arpita Pradhane- Resume.pdf",
   },
 };
