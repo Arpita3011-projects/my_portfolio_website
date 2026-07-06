@@ -2,13 +2,11 @@ import heroImage from '../assets/images/hero.png'
 
 export const projectsContent = {
   eyebrow: 'Projects',
-  title: 'Selected work that balances craft and product thinking',
-  intro:
-    'These projects highlight the kinds of interfaces, systems, and product moments I enjoy building most—clear, usable, and thoughtfully designed.',
+  title: 'Projects I have Built',
   filters: ['All', 'Full Stack', 'Frontend', 'Backend'],
   projects: [
     {
-      title: 'Airbnb Clone',
+      title: 'Airbnb - Inspired Property Rental System',
       category: 'Full Stack',
       featured: true,
       image: heroImage,
@@ -17,7 +15,7 @@ export const projectsContent = {
       technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       links: {
         github: 'https://github.com/Arpita3011-projects/Airbnb_3011',
-        demo: undefined,
+        demo: 'https://airbnb-inspired-property-rental-system.onrender.com',
       },
     },
     {

@@ -2,7 +2,7 @@
 
 export const skillsContent = {
   eyebrow: 'Skills',
-  title: 'A practical toolkit for building modern experiences',
+  title: 'Technologies and tools I use to build web applications.',
   // intro:
   //   'These are the core areas I focus on when shaping reliable interfaces, polished product flows, and durable development workflows.',
   filters: ['All', 'Frontend', 'Backend', 'Database', 'Tools', 'Soft Skills'],

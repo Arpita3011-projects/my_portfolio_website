@@ -1,6 +1,6 @@
 export const educationContent = {
   eyebrow: 'Education',
-  title: 'Academic foundations and ongoing learning',
+  title: 'Education',
   educations: [
     {
       degree: 'Bachelor of Engineering',

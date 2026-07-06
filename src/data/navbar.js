@@ -10,7 +10,6 @@ export const navbarContent = {
     { label: 'Projects', href: '#projects' },
     { label: 'Certifications', href: '#certifications' },
     { label: 'Education', href: '#education' },
-    { label: 'Achievements', href: '#achievements' },
     { label: 'Currently Learning', href: '#currently-learning' },
     { label: 'Contact', href: '#contact' },
   ],

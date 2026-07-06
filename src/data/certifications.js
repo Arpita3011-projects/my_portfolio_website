@@ -3,7 +3,7 @@
 
 export const certificationsContent = {
   eyebrow: 'Certifications',
-  title: 'Validated learning from trusted platforms',
+  title: 'Professional Certifications',
   intro: 'A snapshot of certifications and workshops completed to strengthen my skills.',
   certifications: [
     {
