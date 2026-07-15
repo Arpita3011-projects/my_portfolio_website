@@ -7,15 +7,15 @@ export const projectsContent = {
   projects: [
     {
       title: 'Airbnb - Inspired Property Rental System',
-      category: 'Full Stack',
+      category: 'MERN Stack',
       featured: true,
       image: heroImage,
       description:
         'A full-stack web application inspired by Airbnb featuring user authentication, property listings, CRUD operations, image uploads, booking functionality, and a responsive user interface.',
       technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       links: {
-        github: 'https://github.com/Arpita3011-projects/Airbnb_3011',
-        demo: 'https://airbnb-inspired-property-rental-system.onrender.com',
+        github: 'https://github.com/Arpita3011-projects/Airbnb_MERN',
+        demo: 'https://airbnb-mern-b08k.onrender.com',
       },
     },
     {
