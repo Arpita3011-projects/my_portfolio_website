@@ -1,5 +1,5 @@
 import heroImage from '../assets/images/hero.png'
-import airbnbDemo from '../assets/images/airbnb-demo.png'
+import airbnbDemo from '../assets/images/Airbnbdemo.png'
 
 export const projectsContent = {
   eyebrow: 'Projects',
