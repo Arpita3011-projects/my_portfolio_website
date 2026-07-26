@@ -14,7 +14,7 @@ export const contactContent = {
 
   resume: {
     label: 'Download Resume',
-    href: '/Arpita Pradhane- Resume.pdf',
+    href: '/Arpita_Pradhane_Resume.pdf',
   },
 }
 
