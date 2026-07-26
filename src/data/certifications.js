@@ -32,6 +32,16 @@ export const certificationsContent = {
       icon: 'dsa',
     },
     {
+  id: 'apna-college-mern',
+  title: 'MERN Stack Development',
+  organization: 'Apna College',
+  year: undefined,
+  description:
+    'Successfully completed a comprehensive MERN Stack Development course covering MongoDB, Express.js, React, Node.js, REST APIs, authentication, CRUD operations, and full-stack application development.',
+  certificate: '/certificates/MERN_Certificate.pdf',
+  icon: 'react',
+},
+    {
       id: 'react-cloud',
       title: 'React Cloud Workshop',
       organization: 'College Workshop',
