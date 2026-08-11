@@ -47,16 +47,20 @@ function Projects() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.35, delay: index * 0.04, ease: 'easeOut' }}
               whileHover={{ y: -4, scale: 1.005, transition: { duration: 0.18 } }}
-              className="group overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-[0_12px_40px_rgba(15,23,42,0.04)] transition-shadow duration-200 hover:shadow-[0_18px_60px_rgba(15,23,42,0.08)]"
+              className="group overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white transition-shadow duration-200 hover:shadow-[0_18px_60px_rgba(15,23,42,0.08)]"
+              style={{ boxShadow: 'var(--card-shadow)' }}
             >
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-48 md:h-56 object-cover transition-transform duration-400 group-hover:scale-105 rounded-t-[1.5rem]"
                 />
                 {project.featured ? (
-                  <span className="absolute left-4 top-4 rounded-full border border-white/70 bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-700 backdrop-blur">
+                  <span
+                    style={{ backgroundColor: 'var(--secondary)', color: 'white' }}
+                    className="absolute left-4 top-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] shadow-sm"
+                  >
                     Featured
                   </span>
                 ) : null}

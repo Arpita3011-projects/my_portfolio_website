@@ -8,6 +8,10 @@ export const colors = {
   accent: '#2563eb',
   accentHover: '#1d4ed8',
   accentSoft: 'rgba(37, 99, 235, 0.12)',
+  // Subtle secondary accent used sparingly for highlights/badges
+  secondary: '#0ea5a4',
+  secondaryHover: '#0b9a98',
+  secondarySoft: 'rgba(14, 165, 164, 0.08)',
   border: '#e2e8f0',
   success: '#16a34a',
   warning: '#d97706',

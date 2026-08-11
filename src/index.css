@@ -6,6 +6,26 @@
   font-weight: 400;
   color: #0f172a;
   background-color: #f8fafc;
+  /* Design tokens (CSS variables) for subtle refinements */
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-soft: rgba(37, 99, 235, 0.12);
+  --secondary: #0ea5a4;
+  --secondary-hover: #0b9a98;
+  --secondary-soft: rgba(14, 165, 164, 0.08);
+  --border: #e6edf6;
+  --card-shadow: 0 12px 40px rgba(15,23,42,0.04);
+  --card-shadow-hover: 0 18px 60px rgba(15,23,42,0.08);
+  /* Compatibility tokens used by legacy CSS in the project */
+  --accent-bg: rgba(37, 99, 235, 0.06);
+  --accent-border: rgba(37, 99, 235, 0.22);
+  --text-h: var(--text-primary);
+  --social-bg: #ffffff;
+  --shadow: 0 6px 18px rgba(15,23,42,0.06);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,7 +39,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background: linear-gradient(180deg, #f8fafc 0%, #f8fafc 100%);
+  background: linear-gradient(180deg, var(--background) 0%, var(--background) 100%);
   color: #0f172a;
 }
 
@@ -32,6 +52,6 @@ body {
 }
 
 ::selection {
-  background: rgba(37, 99, 235, 0.18);
-  color: #0f172a;
+  background: var(--accent-soft);
+  color: var(--text-primary);
 }
