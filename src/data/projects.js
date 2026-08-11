@@ -7,6 +7,33 @@ export const projectsContent = {
   filters: ['All', 'Full Stack', 'Frontend', 'Backend'],
   projects: [
     {
+      title: 'Munch — Full-Stack Food Ordering App',
+      category: 'Full Stack',
+      featured: true,
+      image: '/Munch.png',
+      description:
+        'A full-stack food ordering application where users can browse and customize menu items, manage their cart, place orders, save delivery addresses, and track order status. It includes JWT authentication, role-based admin features, reviews, and business analytics.',
+      technologies: [
+        'React',
+        'Vite',
+        'Tailwind CSS',
+        'JavaScript',
+        'React Router',
+        'Context API',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Mongoose',
+        'JWT',
+        'Zod',
+        'PWA',
+      ],
+      links: {
+        github: 'https://github.com/Arpita3011-projects/Munch',
+        demo: 'https://munch-two-eosin.vercel.app/',
+      },
+    },
+    {
       title: 'Airbnb - Inspired Property Rental System',
       category: 'MERN Stack',
       featured: true,
