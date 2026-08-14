@@ -109,6 +109,41 @@ function Projects() {
                   </Button>
                       )}
                 </div>
+                {/* Admin Dashboard demo info for Munch project */}
+                {project.links?.github?.includes('/Munch') ? (
+                  <div className="mt-3 border-t pt-3">
+                    <p className="text-sm font-semibold text-slate-700">Admin Dashboard Demo</p>
+                    <p className="text-sm text-slate-600">Munch also includes an Admin Dashboard for menu management, order management, and business analytics. Use the demo admin credentials below to explore these features.</p>
+
+                    <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-center">
+                      <div className="flex items-center gap-3 rounded-md bg-slate-50 px-3 py-2">
+                        <span className="text-xs font-medium text-slate-700">Admin Email:</span>
+                        <span className="text-xs text-slate-600">admin@example.com</span>
+                        <Button
+                          variant="secondary"
+                          onClick={() => navigator?.clipboard?.writeText('admin@example.com')}
+                          className="px-3 py-1 text-xs"
+                          aria-label="Copy admin email"
+                        >
+                          Copy
+                        </Button>
+                      </div>
+
+                      <div className="flex items-center gap-3 rounded-md bg-slate-50 px-3 py-2">
+                        <span className="text-xs font-medium text-slate-700">Admin Password:</span>
+                        <span className="text-xs text-slate-600">YourPass123!</span>
+                        <Button
+                          variant="secondary"
+                          onClick={() => navigator?.clipboard?.writeText('YourPass123!')}
+                          className="px-3 py-1 text-xs"
+                          aria-label="Copy admin password"
+                        >
+                          Copy
+                        </Button>
+                      </div>
+                    </div>
+                  </div>
+                ) : null}
               </div>
             </motion.article>
           ))}
