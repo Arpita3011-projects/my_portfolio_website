@@ -4,7 +4,7 @@ import airbnbDemo from '../assets/images/Airbnbdemo.png'
 export const projectsContent = {
   eyebrow: 'Projects',
   title: 'Projects I have Built',
-  filters: ['All', 'Full Stack', 'Frontend', 'Backend'],
+  filters: ['All', 'MERN Stack', 'Frontend', 'Backend'],
   projects: [
     {
       title: 'Munch — Full-Stack Food Ordering App',
