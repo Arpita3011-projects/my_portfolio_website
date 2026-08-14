@@ -8,7 +8,7 @@ export const projectsContent = {
   projects: [
     {
       title: 'Munch — Full-Stack Food Ordering App',
-      category: 'Full Stack',
+      category: 'MERN Stack',
       featured: true,
       image: '/Munch.png',
       description:
